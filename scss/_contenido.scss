@@ -64,7 +64,7 @@ h1 h2{
 }
 .video_3{
     @media (min-width: 1024px) and (max-width: 1400px) {
-        grid-template-columns: repeat(2, auto); 
+        grid-template-columns: repeat(1, auto); 
         }
 }
 

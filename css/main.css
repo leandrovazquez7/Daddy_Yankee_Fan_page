@@ -58,7 +58,7 @@ h1 h2 {
 
 @media (min-width: 1024px) and (max-width: 1400px) {
   .video_3 {
-    grid-template-columns: repeat(2, auto); } }
+    grid-template-columns: repeat(1, auto); } }
 
 .px-26 {
   padding-left: 26rem;
