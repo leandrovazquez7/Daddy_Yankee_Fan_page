@@ -40,23 +40,25 @@ footer{
 }
 
 .pie_5{
-    @media (min-width: 320px) {
+    @media (min-width: 320px) and (max-width: 375px) {
         margin-left: -13rem;
         font-size: smaller;
         padding-right: 11rem;
     }
 }
 .pie_6{
-    @media (min-width: 320px) {
+    @media (min-width: 320px) and (max-width: 375px)  {
         font-size: smaller;
         margin-top: -7rem;
+        margin-left: 4rem;
     }
 }
 .pie_7{
-    @media (min-width: 320px) {
-        margin-top: -9rem;
-        width: 41%;
+    @media (min-width: 320px) and (max-width: 375px)  {
+        margin-top: -8rem;
+        width: 35%;
         height: 12rem;
+        margin-left: 13rem;
     }
 }
 
