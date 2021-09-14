@@ -1,0 +1,116 @@
+// FOOTER, es el mismo para todas las paginas y tiene gradient
+
+footer{
+    background: $warning;
+    div{
+        font-size: 1rem;
+        word-spacing: 10px;
+        text-decoration: none;
+        background-color: $warning;
+        p{
+            color: $dark;
+            a{
+                color: $dark;                
+            }
+        }
+    }
+}
+
+.pie_1{
+    padding-left: 13rem;
+    padding-top: 2rem;
+}
+.pie_2{
+    text-align: end;
+    margin-top: -6rem;
+    width: 74%;
+    height: 8rem;
+    margin-left: 10rem;
+}
+
+.pie_3{
+    text-align: center;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin-top: -6rem;
+}
+.pie_4{
+    text-decoration: none;
+    color:black;
+}
+
+.pie_5{
+    @media (min-width: 320px) {
+        margin-left: -13rem;
+        font-size: smaller;
+        padding-right: 11rem;
+    }
+}
+.pie_6{
+    @media (min-width: 320px) {
+        font-size: smaller;
+        margin-top: -7rem;
+    }
+}
+.pie_7{
+    @media (min-width: 320px) {
+        margin-top: -9rem;
+        width: 41%;
+        height: 12rem;
+    }
+}
+
+.pie_8{
+    @media (min-width: 480px) {
+        margin-left: -13rem;
+        font-size: small;
+        padding-right: 12rem;
+    }
+}
+.pie_9{
+    @media (min-width: 480px) {
+        font-size: small;
+        margin-top: -6rem;
+    }
+}
+.pie_10{
+    @media (min-width: 480px) {
+        margin-top: -8rem;
+        width: 24%;
+        height: 12rem;
+        margin-left: 19rem;
+
+    }
+}
+.pie_11{
+    @media (min-width: 600px) {
+        width: 49%;
+        margin-top: -6rem;
+        height: 7rem;
+    }
+}
+.pie_12{
+    @media (min-width: 600px) {
+        margin-top: -5rem;
+        margin-left: 2rem;
+    }
+}
+.pie_13{
+    @media (min-width: 768px) {
+        margin-left: 21rem;
+        margin-right: 21rem;
+    }
+}
+.pie_14{
+    @media (min-width: 1024px) {
+        font-size-adjust: 0.7;
+        padding-left: 15rem;
+        margin-left: -10rem;
+    }
+}
+.pie_15{
+    @media (min-width: 1200px) {
+        margin-left: 30rem;
+    }
+}
+

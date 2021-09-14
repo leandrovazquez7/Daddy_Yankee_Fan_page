@@ -1,0 +1,122 @@
+p{
+    color: $parrafos;
+}
+h1 h2{
+    color: $warning;
+    text-align: center;
+}
+.title{
+    color: $warning;
+    text-align: center;
+}
+
+//tour
+.tour_padd{
+    padding: 0.5rem;
+}
+
+/* Grid discografia*/
+.contenedor3{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-row-gap: 5px;
+    grid-column-gap: 7px;
+    margin-top: 20px;
+}
+
+.contenedor4{
+    @extend .contenedor3;
+    grid-template-columns: repeat(4, auto);
+}
+
+//galeria
+.contenedor1{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-row-gap: 5px;
+    grid-column-gap: 7px;
+    margin-top: 20px;
+}
+
+.contenedor5{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-row-gap: 5px;
+    grid-column-gap: 7px;
+    margin-top: 20px;
+}
+.video_1{
+    @media (min-width: 320px) {
+        grid-template-columns: repeat(1, auto);
+        }
+}
+
+.video_2{
+    @media (min-width: 600px) and (max-width: 768px) {
+        grid-template-columns: repeat(2, auto); 
+        }
+}
+.video_3{
+    @media (min-width: 1024px) and (max-width: 1400px) {
+        grid-template-columns: repeat(2, auto); 
+        }
+}
+
+//contacto
+.px-26{
+    padding-left: 26rem;
+    padding-right: 26rem;
+    padding-bottom: 2rem;
+}
+
+.texto_2 {
+    border-left-width: 2rem;
+    border-left-style: solid;
+}
+.contacto_1{
+    @media (min-width: 320px) {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-bottom: 2rem;
+    }
+}
+.contacto_2{
+    @media (min-width: 480px) {
+        margin-left: 4rem;
+        margin-right: 4rem;
+        padding-bottom: 2rem;
+    }
+}
+.contacto_3{
+    @media (min-width: 600px) {
+        margin-left: 6rem;
+        margin-right: 6rem;
+        margin-top: -1rem;
+        padding-bottom: 2rem;
+        margin-bottom: 0rem;
+    }
+}
+.contac_footer{
+    @media (min-width: 600px) {
+        height: 8rem;
+    }
+}
+.contacto_4{
+    @media (min-width: 768px) {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+}
+.contacto_5{
+    @media (min-width: 1024px) and (max-width: 1400px) {
+        margin-left: 16rem;
+        margin-right: 16rem;
+    }
+}
+

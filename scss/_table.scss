@@ -1,0 +1,75 @@
+.border1{
+    color: rgb(61, 7, 61);
+    border-top-width: 1rem;
+    border-top-style: solid;
+}
+
+div table{
+    color: $warning;
+    font-size: 1.8rem;
+    margin-left: 300px;
+    text-align: -moz-center;
+    tr td{
+        color: $parrafos;
+        a{
+            color: $warning;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+/* color de fondo de tour gradient */
+.fondocolor_tour{
+    display: grid;
+    background: linear-gradient(to top, black, rgb(61, 7, 61));
+}
+.tour_1{
+    @media (min-width: 320px) {
+        max-width: 100%;
+        font-size: large;
+        border-right-width: 0px;
+        border-right-style: solid;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        border-top-width: 1rem;
+        }
+}
+.tour_2{
+    @media (min-width: 480px) {
+        max-width: 100%;
+        font-size: large;
+        margin-top: 0px;
+        border-right-width: 0px;
+        border-right-style: solid;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        border-top-width: 1rem;
+        text-align: -moz-center;
+        }
+}
+.tour_3{
+    @media (min-width: 600px) {
+        max-width: 100%;
+        font-size: x-large;
+        margin-top: 0px;
+        border-right-style: solid;
+        margin-left: 1rem;
+        margin-right: 5rem;
+        text-align: -moz-center;
+        }
+}
+.tour_4{
+    @media (min-width: 1024px) {
+        max-width: 100%;
+        font-size: 2rem;
+        margin-top: 0px;
+        border-right-style: solid;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        text-align: -moz-center;
+        .ticket{
+            font-size: 2rem;
+        }
+    }
+}
+

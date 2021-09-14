@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+.navbar_style ul li a:hover {
+  color: white;
+  border-bottom: 1px solid black; }
+
+p {
+  color: white; }
+
+h1 h2 {
+  color: #ffc107;
+  text-align: center; }
+
+.title {
+  color: #ffc107;
+  text-align: center; }
+
+.tour_padd {
+  padding: 0.5rem; }
+
+/* Grid discografia*/
+.contenedor3, .contenedor4 {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-row-gap: 5px;
+  grid-column-gap: 7px;
+  margin-top: 20px; }
+
+.contenedor4 {
+  grid-template-columns: repeat(4, auto); }
+
+.contenedor1 {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-row-gap: 5px;
+  grid-column-gap: 7px;
+  margin-top: 20px; }
+
+.contenedor5 {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-row-gap: 5px;
+  grid-column-gap: 7px;
+  margin-top: 20px; }
+
+@media (min-width: 320px) {
+  .video_1 {
+    grid-template-columns: repeat(1, auto); } }
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .video_2 {
+    grid-template-columns: repeat(2, auto); } }
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .video_3 {
+    grid-template-columns: repeat(2, auto); } }
+
+.px-26 {
+  padding-left: 26rem;
+  padding-right: 26rem;
+  padding-bottom: 2rem; }
+
+.texto_2 {
+  border-left-width: 2rem;
+  border-left-style: solid; }
+
+@media (min-width: 320px) {
+  .contacto_1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 2rem; } }
+
+@media (min-width: 480px) {
+  .contacto_2 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-bottom: 2rem; } }
+
+@media (min-width: 600px) {
+  .contacto_3 {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: -1rem;
+    padding-bottom: 2rem;
+    margin-bottom: 0rem; } }
+
+@media (min-width: 600px) {
+  .contac_footer {
+    height: 8rem; } }
+
+@media (min-width: 768px) {
+  .contacto_4 {
+    margin-left: 10rem;
+    margin-right: 10rem; } }
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .contacto_5 {
+    margin-left: 16rem;
+    margin-right: 16rem; } }
+
+.border1 {
+  color: #3d073d;
+  border-top-width: 1rem;
+  border-top-style: solid; }
+
+div table {
+  color: #ffc107;
+  font-size: 1.8rem;
+  margin-left: 300px;
+  text-align: -moz-center; }
+  div table tr td {
+    color: white; }
+    div table tr td a {
+      color: #ffc107;
+      font-size: 1.5rem; }
+
+/* color de fondo de tour gradient */
+.fondocolor_tour {
+  display: grid;
+  background: linear-gradient(to top, black, #3d073d); }
+
+@media (min-width: 320px) {
+  .tour_1 {
+    max-width: 100%;
+    font-size: large;
+    border-right-width: 0px;
+    border-right-style: solid;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    border-top-width: 1rem; } }
+
+@media (min-width: 480px) {
+  .tour_2 {
+    max-width: 100%;
+    font-size: large;
+    margin-top: 0px;
+    border-right-width: 0px;
+    border-right-style: solid;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    border-top-width: 1rem;
+    text-align: -moz-center; } }
+
+@media (min-width: 600px) {
+  .tour_3 {
+    max-width: 100%;
+    font-size: x-large;
+    margin-top: 0px;
+    border-right-style: solid;
+    margin-left: 1rem;
+    margin-right: 5rem;
+    text-align: -moz-center; } }
+
+@media (min-width: 1024px) {
+  .tour_4 {
+    max-width: 100%;
+    font-size: 2rem;
+    margin-top: 0px;
+    border-right-style: solid;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    text-align: -moz-center; }
+    .tour_4 .ticket {
+      font-size: 2rem; } }
+
+footer {
+  background: #ffc107; }
+  footer div {
+    font-size: 1rem;
+    word-spacing: 10px;
+    text-decoration: none;
+    background-color: #ffc107; }
+    footer div p {
+      color: black; }
+      footer div p a {
+        color: black; }
+
+.pie_1 {
+  padding-left: 13rem;
+  padding-top: 2rem; }
+
+.pie_2 {
+  text-align: end;
+  margin-top: -6rem;
+  width: 74%;
+  height: 8rem;
+  margin-left: 10rem; }
+
+.pie_3 {
+  text-align: center;
+  text-transform: uppercase;
+  list-style-type: none;
+  margin-top: -6rem; }
+
+.pie_4 {
+  text-decoration: none;
+  color: black; }
+
+@media (min-width: 320px) {
+  .pie_5 {
+    margin-left: -13rem;
+    font-size: smaller;
+    padding-right: 11rem; } }
+
+@media (min-width: 320px) {
+  .pie_6 {
+    font-size: smaller;
+    margin-top: -7rem; } }
+
+@media (min-width: 320px) {
+  .pie_7 {
+    margin-top: -9rem;
+    width: 41%;
+    height: 12rem; } }
+
+@media (min-width: 480px) {
+  .pie_8 {
+    margin-left: -13rem;
+    font-size: small;
+    padding-right: 12rem; } }
+
+@media (min-width: 480px) {
+  .pie_9 {
+    font-size: small;
+    margin-top: -6rem; } }
+
+@media (min-width: 480px) {
+  .pie_10 {
+    margin-top: -8rem;
+    width: 24%;
+    height: 12rem;
+    margin-left: 19rem; } }
+
+@media (min-width: 600px) {
+  .pie_11 {
+    width: 49%;
+    margin-top: -6rem;
+    height: 7rem; } }
+
+@media (min-width: 600px) {
+  .pie_12 {
+    margin-top: -5rem;
+    margin-left: 2rem; } }
+
+@media (min-width: 768px) {
+  .pie_13 {
+    margin-left: 21rem;
+    margin-right: 21rem; } }
+
+@media (min-width: 1024px) {
+  .pie_14 {
+    font-size-adjust: 0.7;
+    padding-left: 15rem;
+    margin-left: -10rem; } }
+
+@media (min-width: 1200px) {
+  .pie_15 {
+    margin-left: 30rem; } }
