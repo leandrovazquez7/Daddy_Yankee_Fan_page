@@ -60,11 +60,6 @@ h1 h2 {
   .video_3 {
     grid-template-columns: repeat(2, auto); } }
 
-.px-26 {
-  padding-left: 26rem;
-  padding-right: 26rem;
-  padding-bottom: 2rem; }
-
 .texto_2 {
   border-left-width: 2rem;
   border-left-style: solid; }
