@@ -58,7 +58,7 @@ h1 h2 {
 
 @media (min-width: 1024px) and (max-width: 1400px) {
   .video_3 {
-    grid-template-columns: repeat(1, auto); } }
+    grid-template-columns: repeat(2, auto); } }
 
 .texto_2 {
   border-left-width: 2rem;
