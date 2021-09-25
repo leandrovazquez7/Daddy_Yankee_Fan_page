@@ -30,6 +30,18 @@ h1 h2 {
 .contenedor4 {
   grid-template-columns: repeat(4, auto); }
 
+@media (min-width: 320px) {
+  .spo_1 {
+    grid-template-columns: repeat(1, auto); } }
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .spo_2 {
+    grid-template-columns: repeat(2, auto); } }
+
+@media (min-width: 768px) and (max-width: 1400px) {
+  .spo_3 {
+    grid-template-columns: repeat(3, auto); } }
+
 .contenedor1 {
   display: grid;
   justify-content: center;

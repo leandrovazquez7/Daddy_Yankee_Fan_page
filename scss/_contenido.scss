@@ -31,6 +31,23 @@ h1 h2{
     grid-template-columns: repeat(4, auto);
 }
 
+.spo_1{
+    @media (min-width: 320px) {
+        grid-template-columns: repeat(1, auto);
+        }
+}
+
+.spo_2{
+    @media (min-width: 600px) and (max-width: 768px) {
+        grid-template-columns: repeat(2, auto); 
+        }
+}
+.spo_3{
+    @media (min-width: 768px) and (max-width: 1400px) {
+        grid-template-columns: repeat(3, auto); 
+        }
+}
+
 //galeria
 .contenedor1{
     display: grid;
